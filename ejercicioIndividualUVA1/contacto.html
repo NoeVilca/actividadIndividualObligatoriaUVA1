@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Web Portfolio profesional</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="navbar-brand">
+            <h1 class="text-display"><span class="text-primary">Portfolio</span></h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse">
+            <div class="navbar-nav">
+                <ul>
+                    <li><a href="index.html" class="nav-item nav-link active">Home</a></li>
+                    <li><a href="sobreMi.html" class="nav-item nav-link">Sobre Mí</a></li>
+                    <li><a href="curriculum.html" class="nav-item nav-link active">Currículum</a></li>
+                    <li><a href="servicios.html" class="nav-item nav-link active">Servicios</a></li>
+                    <li>Contacto</li>
+                    <li><a href="habilidades.html" class="nav-item nav-link">Habilidades</a></li>
+                    <li><a href="certificaciones.html" class="nav-item nav-link">Certificaciones y Reconocimientos</a></li>
+                </ul>                
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="position-absolute text-uppercase text-primary">Contáctame</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid py-5" id="contact">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="contact-form text-center">
+                            <div id="success"></div>
+                            <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                <div class="form-row">
+                                    <div class="control-group col-sm-6">
+                                        <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
+                                            required="required" data-validation-required-message="Please enter your name" />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="control-group col-sm-6">
+                                        <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
+                                            required="required" data-validation-required-message="Please enter your email" />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
+                                        required="required" data-validation-required-message="Please enter a subject" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group">
+                                    <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
+                                        required="required"
+                                        data-validation-required-message="Please enter your message"></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div>
+                                    <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div><div class="row mb-3">
+                    <div class="col-sm-6 py-2"><h6>Celular: <span class="text-secondary">+5491121692139</span></h6></div>
+                    <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">noeliavilca.prog@gmail.com</span></h6></div>
+                    <div class="col-sm-6 py-2"><h6>Ubicación: <span class="text-secondary">Buenos Aires, Argentina</span></h6></div>
+                    <div class="col-sm-6 py-2"><h6>Freelance: <span class="text-secondary">Disponible</span></h6></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-primary">
+            <div class="justify-content-center">
+                <a class="btn btn-social" href="https://www.linkedin.com/in/noeliavilca/" target="_blank"><i class="linkedin-in"></i>LinkedIn</a>
+            </div>
+            <p>All Rights Reserved. Designed by Noelia Vilca</p>
+        </div>
+    </footer>
+</body>
+</html>
