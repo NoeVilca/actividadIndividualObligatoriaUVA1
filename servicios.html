@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sitio Web Portfolio profesional</title>
+    <link rel="stylesheet" href="CSS/estilositio.css">
 </head>
 <body>
     <nav>
         <a href="index.html" class="navbar-brand">
             <h1 class="text-display"><span class="text-primary">Portfolio</span></h1>
         </a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
         <div class="navbar-collapse">
             <div class="navbar-nav">
+                <input type="checkbox" id="menu">  
+                <label for="menu"> ☰ </label>
                 <ul>
                     <li><a href="index.html" class="nav-item nav-link active">Home</a></li>
                     <li><a href="sobreMi.html" class="nav-item nav-link">Sobre Mí</a></li>
@@ -22,7 +22,7 @@
                     <li>Servicios</li>
                     <li><a href="contacto.html" class="nav-item nav-link">Contacto</a></li>
                     <li><a href="habilidades.html" class="nav-item nav-link">Habilidades</a></li>
-                    <li><a href="certificaciones.html" class="nav-item nav-link">Certificaciones y Reconocimientos</a></li>
+                    <li><a href="certificaciones.html" class="nav-item nav-link">Certificaciones</a></li>
                 </ul>                
             </div>
         </div>
@@ -33,45 +33,76 @@
         </div>
     </header>
     <main>
-        <div class="container-fluid pt-5" id="service">
+        <div class="container-fluid" id="service">
             <div class="container">
-                <div class="row pb-3">
-                    <div class="col-lg-4 col-md-6 text-center mb-5">
-                        <div class="d-flex align-items-center justify-content-center mb-4">
-                            <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
-                            <h4 class="font-weight-bold m-0">Consultoría RPA</h4>
+                <div class="row-align-items-center">
+                    <div class="text-container" id="service">
+                        <div class="justify-content-center mb-4" id="service">
+                            <h4 class="font-weight-bold">Consultoría RPA</h4>
                         </div>
-                        <p>
+                        <img src="img/consultoriaRPA.jpeg" alt="ConsultoriaRPA" class="justify-content-center icon">
+                        <p class="justify-content-center mb-4" id="service">
+                            <strong>✔</strong>
                             Workshop RPA
+                            <br>
+                            <strong>✔</strong>
                             Consultoría
+                            <br>
+                            <strong>✔</strong>
                             Soporte al centro de excelencia
+                            <br>
+                            <strong>✔</strong>
                             Análisis funcional
+                            <br>
+                            <br>
+                            <br>
                         </p>
                     </div>
-                    <div class="col-lg-4 col-md-6 text-center mb-5">
-                        <div class="d-flex align-items-center justify-content-center mb-4">
-                            <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
-                            <h4 class="font-weight-bold m-0">Operación de bots</h4>
+                    <div class="text-container" id="service">
+                        <div class="justify-content-center mb-4" id="service">
+                            <h4 class="font-weight-bold">Operación de bots</h4>
                         </div>
-                        <p>
+                        <img src="img/operacionsBots.jpeg" alt="OperacionDeBots" class="justify-content-center icon">
+                        <p class="justify-content-center mb-4" id="service">
+                            <strong>✔</strong>
                             Operacion del COE
+                            <br>
+                            <strong>✔</strong>
                             Mantenimiento de bots
+                            <br>
+                            <strong>✔</strong>
                             Seguridad de bots
+                            <br>
+                            <strong>✔</strong>
                             Gobierno de bots
+                            <br>
+                            <strong>✔</strong>
                             Mesa de ayuda RPA
+                            <br>
+                            <strong>✔</strong>
                             Implementación y monitoreo
                         </p>
                     </div>
-                    <div class="col-lg-4 col-md-6 text-center mb-5">
-                        <div class="d-flex align-items-center justify-content-center mb-4">
-                            <i class="fab fa-2x fa-android service-icon bg-primary text-white mr-3"></i>
-                            <h4 class="font-weight-bold m-0">Fabrica de bots</h4>
+                    <div class="text-container" id="service">
+                        <div class="justify-content-center mb-4" id="service">
+                            <h4 class="font-weight-bold">Fabrica de bots</h4>
                         </div>
-                        <p>
+                        <img src="img/fabricaBots.jpeg" alt="FabricaDeBots" class="justify-content-center icon">
+                        <p class="justify-content-center mb-4" id="service"> 
+                            <strong>✔</strong>
                             Discovery de procesos
+                            <br>
+                            <strong>✔</strong>
                             Roadmap de RPA
+                            <br>
+                            <strong>✔</strong>
                             Construcción de robots
+                            <br>
+                            <strong>✔</strong>
                             Arquitectura de RPA
+                            <br>
+                            <br>
+                            <br>
                         </p>
                     </div>
                 </div>
@@ -81,7 +112,7 @@
     <footer>
         <div class="container-primary">
             <div class="justify-content-center">
-                <a class="btn btn-social" href="https://www.linkedin.com/in/noeliavilca/" target="_blank"><i class="linkedin-in"></i>LinkedIn</a>
+                <a class="btn btn-social" href="https://www.linkedin.com/in/noeliavilca/" target="_blank"><i class="linkedin-in"></i>In</a>
             </div>
             <p>All Rights Reserved. Designed by Noelia Vilca</p>
         </div>
